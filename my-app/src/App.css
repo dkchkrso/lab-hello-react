@@ -1,0 +1,66 @@
+.maindiv {
+  background-color: black;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.main-box {
+  padding-left: 3rem;
+}
+
+.main-box p {
+  color: #ffffff;
+  
+  margin: 0;
+}
+
+button {
+  font-weight: 800;
+  background-color: white;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 3rem;
+  width: 10rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 15rem;
+}
